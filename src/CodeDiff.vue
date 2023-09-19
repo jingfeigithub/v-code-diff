@@ -84,6 +84,7 @@ watch(() => props, () => {
 
 <template>
   <div class="code-diff-view" :style="{ maxHeight }">
+    <div>你好啊</div>
     <div v-if="!hideHeader" class="file-header">
       <div class="file-info">
         <span class="filename">{{ filename }}</span>
